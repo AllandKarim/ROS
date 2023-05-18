@@ -1,0 +1,7 @@
+<launch>
+    <node name="web_server_autobot_node" pkg="remote_autobot" type="web_server_autobot_node" output="screen" />
+
+    <node name="web_browser_autobot_node" pkg="remote_autobot" type="web_browser_autobot_node" output="screen" /> 
+
+    <node name="remote_autobot_node" pkg="remote_autobot" type="remote_autobot_node" output="screen" />
+</launch>
